@@ -6,9 +6,9 @@ import {Link} from "react-scroll"
 const Home = () => {
   return (
     <div name="Home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
-        <div className='max-w-screen-lg px-4 mx-auto flex flex-col items-center justify-center h-full md:flex-row'>
-            <div className='flex flex-col justify-center h-4'>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>
+        <div className='max-w-screen-lg  px-4 mx-auto flex flex-col items-center justify-evenly h-full md:flex-row'>
+            <div className='flex flex-col justify-center'>
+                <h2 className='text-4xl pt-10 sm:text-7xl font-bold text-white'>
                     I'm a Full Stack Developer
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
@@ -24,7 +24,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div>
+            <div className='flex  flex-col justify-end  items-end'>
                 <img src={heroImage} className='rounded-2xl  mx-auto w-2/3 md:w-full' alt="my profile" />
             </div>
         </div>

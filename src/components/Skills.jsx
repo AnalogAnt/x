@@ -35,20 +35,20 @@ const Skills = () => {
         style:"shadow-blue-600"
     },
     {
-        id:4,
+        id:5,
         src:node,
         title:'NodeJs',
         style:"shadow-green-600"
     },
     {
-        id:5,
+        id:6,
         src:python,
         title:'Python',
         style:"shadow-yellow-600"
     },
 
     {
-        id:6,
+        id:7,
         src:github,
         title:'GitHub',
         style:"shadow-gray-400"
@@ -57,7 +57,7 @@ const Skills = () => {
   return (
     <div name="Skills" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-            <div>
+            <div className='mt-20'>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Skills</p>
                 <p className='py-6'>These are the technologies I can work with</p>
             </div>
