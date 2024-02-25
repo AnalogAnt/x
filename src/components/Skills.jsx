@@ -6,7 +6,7 @@ import reactImage from '../assets/react.png'
 import github from '../assets/github.png'
 import node from '../assets/node.png'
 import python from '../assets/python.png'
-
+import tailwind from '../assets/tailwind.png'
 
 const Skills = () => {
   const skills = [
@@ -46,9 +46,15 @@ const Skills = () => {
         title:'Python',
         style:"shadow-yellow-600"
     },
-
     {
         id:7,
+        src:tailwind,
+        title:'Tailwind',
+        style:"shadow-blue-400"
+    },
+
+    {
+        id:8,
         src:github,
         title:'GitHub',
         style:"shadow-gray-400"
