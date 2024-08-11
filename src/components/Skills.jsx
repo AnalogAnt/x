@@ -71,9 +71,9 @@ const Skills = () => {
 };
 
   return (
-    <div name="Skills" className='bg-gradient-to-b from-[#d09693] to-[#c71d6f] w-full h-full'>
+    <div name="Skills" className='  bg-gradient-to-b from-[#d09693] to-[#c71d6f] w-full h-full'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-            <div className='mt-20'>
+            <div className='mt-56'>
                 <p className='text-4xl font-bold p-2 inline'>Hiii krocsyyy, Its me Dhanvi. These are 8 letters which you will open when the time is right.</p>
         
             </div>
