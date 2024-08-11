@@ -1,21 +1,17 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
-import SocialLinks from "./components/SocialLinks";
+import MF from "./components/MF";
+import Vics from "./components/Vics";
+import VicsAbout from "./components/VicsAbout";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App font-signature">
       <Home />
-      <About />
-      <Portfolio />
+      <MF />
+      <Vics />
+      <VicsAbout />
       <Skills />
-      <Contact />
-      <SocialLinks />
     </div>
   );
 }
