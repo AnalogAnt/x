@@ -7,11 +7,11 @@ const MF = () => {
             <h1 className='text-8xl mb-20 mt-0 ml-10 text-center'>Malleshwariii Fanss &#60;3</h1>
              <div className='flex flex-row align-middle justify-evenly'>
                 <div className='w-auto h-auto '>
-                    <img src={MFImage} className='h-96 w-auto border-4 rounded-md' alt="MF" />
+                    <img src={MFImage} className='h-96 w-96 border-4 rounded-full' alt="MF" />
                 </div>
                 <div className='w-2/4'>
-                    <p>
-                    I believe in the power of collaboration and enjoy working closely with clients and colleagues to understand their unique needs and deliver tailored solutions. My goal is not just to meet expectations but to exceed them, ensuring that each project I work on leaves a lasting impact. Beyond coding, I'm deeply passionate about staying at the forefront of industry trends and continuously expanding my skill set. Whether it's attending tech conferences, participating in online courses, or contributing to open-source projects, I'm always eager to learn and grow. If you're looking for a dedicated Full Stack Developer who can bring your ideas to life with precision and creativity, I'd love to connect and discuss how we can collaborate on your next project!
+                    <p className='text-4xl'>
+                    Thank you for being Krocssyyy, Kritsuuu and Vidushii in all of our lives. You mean so much to each one of us personally and to MF. We want you to continue laughing on more of our jokes which if got out, we could be jailed. Let us continue hating black people and Muslims. Let us fight and conclude that Rockstar is the best movie ever made. To more F1 evenings, late night meets and escapes from college.
                     </p>
                 </div>
              </div>

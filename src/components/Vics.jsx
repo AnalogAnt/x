@@ -1,6 +1,7 @@
 import React from 'react';
 import Vics1 from '../assets/Vics1.jpg';
 import Vics2 from '../assets/Vics2.jpg';
+import Vics3 from '../assets/Vics3.jpg';
 
 const Vics = () => {
     return (
@@ -12,7 +13,7 @@ const Vics = () => {
                     <img src={Vics1} alt="Vics1" className='rounded-full border-4 h-fit w-96'/>
                     <img src={Vics2} alt="Vics2" className='rounded-full border-4 h-fit w-96'/>
                 </div>
-                <img src={Vics2} alt="Vics2" className='rounded-full border-4 h-fit w-96 self-center'/>
+                <img src={Vics3} alt="Vics3" className='rounded-full border-4 h-fit w-96 self-center'/>
             </div>
             <div className='place-self-center  ml-52 justify-self-end'>
                 <p className=' text-white text-5xl gap-2'>
