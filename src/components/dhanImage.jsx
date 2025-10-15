@@ -3,13 +3,13 @@ import collage from '../assets/collage.png'
 
 const DhanImage = () => {
     return (
-        <div className='w-full h-screen p-3 bg-gradient-to-b from-[#c71d6f] to-[#d09693] text-white'>
-            <h1 className='text-8xl mt-32 mb-20 ml-10 text-center'>Krocsyyy &#60;3</h1>
+        <div className='w-full h-screen p-3 bg-gradient-to-b from-[#4227a4] to-[#0a0f2c] text-white'>
+            <h1 className='font-league-spartan font-bold text-8xl mt-32 mb-20 ml-10 text-center'>Krocsyyy &#60;3</h1>
              <div className='flex flex-row align-middle justify-evenly'>
                 <div className='w-auto h-auto ml-6 '>
                     <img src={collage} className='h-96 w-auto rounded-md' alt="MF" />
                 </div>
-                <div className='w-2/4 text-4xl mt-44'>
+                <div className='w-2/4 font-league-spartan text-4xl mt-44'>
                     <p>
                     All I want is to fly with you
                     <br/>

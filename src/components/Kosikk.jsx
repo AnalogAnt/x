@@ -2,11 +2,11 @@ import React from 'react'
 
 const KosAbout1 = () => {
   return (
-    <div name="About" className='w-full h-screen bg-gradient-to-b from-[#c71d6f] to-[#d09693] text-white' >
+    <div name="About" className='w-full h-screen bg-gradient-to-b from-[#791ea7] to-[#6a44c1] text-white' >
         <div>
-        <h1 className='text-8xl ml-10 text-center text-white'>Vidushiii</h1>
+        <h1 className='font-league-spartan font-bold text-8xl ml-10 text-center text-white'>Vidushiii</h1>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-            <p className='text-2xl mt-10'>
+            <p className='font-league-spartan text-2xl mt-10'>
               Dear Vidushi,
 I haven't really written a letter since "chutti mangthe hue gauravaneey
 adhyapika ko pathr likhiye", so this is going to be my best (or worst)
@@ -43,7 +43,7 @@ since our (ahem my) holidays.  I've missed you and Vikas very much
 that lunch we had the other day meant to me.  This is getting kind of sad
 :lol.
 </p>
-            
+
         </div>
         <div>
         </div>

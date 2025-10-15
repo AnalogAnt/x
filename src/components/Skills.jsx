@@ -71,22 +71,22 @@ const Skills = () => {
 };
 
   return (
-    <div name="Skills" className='  bg-gradient-to-b from-[#d09693] to-[#c71d6f] w-full h-full'>
+    <div name="Skills" className='  bg-gradient-to-b from-[#0a0f2c] to-[#791ea7] w-full h-full'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div className='mt-56'>
-                <p className='text-4xl font-bold p-2 inline'>Hiii krocsyyy, Its me Dhanvi. These are 8 letters which you will open when the time is right.</p>
-        
+                <p className='font-league-spartan font-bold text-4xl p-2 inline'>Hiii krocsyyy, Its me Dhanvi. These are 8 letters which you will open when the time is right.</p>
+
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
                 {skills.map(({id,src,title,style}) =>(
-                    <div key={id} onClick={() => onButtonClick(src)} className={`shadow-md border-2 border-white bg-gradient-to-b from-[#d09693] to-[#c71d6f] w-80 h-40 flex flex-col justify-center hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+                    <div key={id} onClick={() => onButtonClick(src)} className={`shadow-md border-2 border-white bg-gradient-to-b from-[#0a0f2c] to-[#791ea7] w-80 h-40 flex flex-col justify-center hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
                     <img src={src} alt="" className='w-20 mx-auto'/>
-                    <p className='mt-4 text-4xl text-center'>{title}</p>
+                    <p className='font-league-spartan mt-4 text-4xl text-center'>{title}</p>
                 </div>
                 ))
 
                 }
-                
+
             </div>
         </div>
     </div>

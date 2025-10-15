@@ -3,10 +3,10 @@ import kousik from '../assets/kousikk.jpg'
 
 const KosAbout2 = () => {
   return (
-    <div name="About" className='w-full h-screen bg-gradient-to-b from-[#d09693] to-[#c71d6f] text-white' >
+    <div name="About" className='w-full h-screen bg-gradient-to-b from-[#6a44c1] to-[#4227a4] text-white' >
         <div>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-            <p className='hidden md:flex text-2xl mt-36'>Anywayyyyyys Krittttttti... whops nvm, Vidushiiiiiiii Happyyyyy
+            <p className='font-league-spartan hidden md:flex text-2xl mt-36'>Anywayyyyyys Krittttttti... whops nvm, Vidushiiiiiiii Happyyyyy
 Birthdayyyyyyyyyyyyyyyyyy!!!!!!!!!  May all of us have more walks, may
 all of us sit on more meets, to new places and to more wildd wilddd
 crazzyyy adventuresss.
@@ -22,7 +22,7 @@ my all time favourites - I think you ll recognize it ;)
 
 </p>
 <div className='flex flex-row justify-evenly items-center'>
-            <p className='mt-5 text-2xl'>
+            <p className='font-league-spartan mt-5 text-2xl'>
             Dilon mein tum apni
 Betaabiyan leke chal rahe ho
 Toh zinda ho tum
@@ -55,7 +55,7 @@ Toh zinda ho tum.
             </div>
         </div>
         <div>
-           
+
         </div>
         </div>
     </div>
